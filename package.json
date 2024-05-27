@@ -1,0 +1,23 @@
+{
+  "name": "clutch-widget-nextjs",
+  "version": "1.0.1",
+  "description": "This is a module for the Clutch widget in the Next Js/React environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "types": "index.d.ts",
+  "keywords": [
+    "clutch"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElderNE/c-widget-container/issues"
+  },
+  "homepage": "https://github.com/ElderNE/c-widget-container#readme",
+  "dependencies": {
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1"
+  }
+}
