@@ -9,6 +9,7 @@ npm install clutch-widget-nextjs
 ```
 ### Example:
 
+```sh
 import { WidgetContainer } from "clutch-widget-nextjs";
 
 <WidgetContainer
@@ -35,6 +36,7 @@ import { WidgetContainer } from "clutch-widget-nextjs";
 
                 background={"rgba(255,255,255,0.7)"}
 />
+```
 
 ### Data from Clatch:
 
