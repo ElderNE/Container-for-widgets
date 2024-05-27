@@ -7,6 +7,34 @@ This is a module for the Clutch widget in the Next Js/React environment.
 ```sh
 npm install clutch-widget-nextjs
 ```
+### Example:
+
+import { WidgetContainer } from "clutch-widget-nextjs";
+
+<WidgetContainer
+
+                scriptIn={`<script></script>`}
+
+                divIn={`<div></div>`}
+
+                widthIn={"205px"}
+
+                heightIn={"65px"}
+
+                zIndex={"1"}
+
+                leftIn="auto"
+
+                bottomIn="auto"
+
+                topIn="10px"
+
+                rightIn="auto"
+
+                position={"absolute"}
+
+                background={"rgba(255,255,255,0.7)"}
+/>
 
 ### Data from Clatch:
 
