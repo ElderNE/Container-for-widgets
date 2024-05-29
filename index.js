@@ -37,7 +37,7 @@ export function WidgetContainer(props) {
             <iframe srcDoc={srcSource}
                     title={title}
                     loading="lazy"
-                    sandbox="allow-scripts allow-same-origin"
+                    sandbox="allow-scripts allow-same-origin allow-popups"
                     referrerPolicy="no-referrer"
                     allow="none"
                     style={{width: widthIn, height: heightIn, border: "none"}}>
