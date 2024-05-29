@@ -7,6 +7,7 @@ This is a module for the Clutch widget in the Next Js/React environment.
 ```sh
 npm install clutch-widget-nextjs
 ```
+
 ### Example:
 
 ```sh
@@ -51,6 +52,7 @@ widthIn     "string"
 heightIn    "string"
 
 ### Position:
+
 position    "static" | "relative" | "absolute" | "sticky" | "fixed"
 
 zIndex      "string"
@@ -73,7 +75,7 @@ background
 
 ## Default values
 
-scriptIn    = "<script></script>",
+scriptIn    = "`<script></script>`",
 
 divIn       = "`<div></div>`",
 
@@ -100,3 +102,4 @@ background  = "rgba(255,255,255,0.8)"
 ## License
 
 MIT
+

@@ -47,20 +47,16 @@ export const WidgetContainer: React.FC<PropsIn> = (props:PropsIn) => {
             background: background,
     }
 
-    const srcSource = 
-    `<!DOCTYPE html>
-        <head>
-            ${scriptIn}
-        </head>
-        <body>
-            ${divIn}
-        </body>
-    </html>`;
+    const srcSource = `<!DOCTYPE html><head>${scriptIn}</head><body>${divIn}</body></html>`;
 
     return (
         <div style={style}>
             <iframe srcDoc={srcSource}
                     title={title}
+                    loading="lazy"
+                    sandbox="allow-scripts allow-same-origin"
+                    referrerPolicy="no-referrer"
+                    allow="none"
                     style={{width: widthIn, height: heightIn, border: "none"}}>
             </iframe>
         </div>
