@@ -1,6 +1,3 @@
-<div style="text-align: center;">
-[![License](https://github.com/ElderNE/c-widget-container/blob/main/images/licence.svg)]()
-</div>
 
 <hr>
 
