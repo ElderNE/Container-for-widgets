@@ -1,7 +1,7 @@
 {
   "name": "clutch-widget-nextjs",
-  "version": "1.1.1",
-  "description": "This is a module for the Clutch widget in the Next Js/React environment.",
+  "version": "2.0.0",
+  "description": "Module for Clutch widget in Next Js/React environment.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "type": "module",
   "types": "index.d.ts",
   "keywords": [
-    "clutch"
+    "clutch", "widget"
   ],
   "license": "MIT",
   "bugs": {

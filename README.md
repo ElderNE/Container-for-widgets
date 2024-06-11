@@ -1,6 +1,13 @@
+<div style="text-align: center;">
+[![License](https://raw.githubusercontent.com/ElderNE/c-widget-container/99a011b495a8f5b7709ee61bada5a9e0a217a3c2/images/licence.svg)]()
+</div>
+
+<hr>
+
 # clutch-widget-nextjs
 
-This is a module for the Clutch widget in the Next Js/React environment.
+Module for Clutch widget in Next Js/React environment.
+Wrap the widget code to iframe.
 
 ## Installation
 
@@ -8,61 +15,23 @@ This is a module for the Clutch widget in the Next Js/React environment.
 npm install clutch-widget-nextjs
 ```
 
-### Example:
-
-```sh
-import { WidgetContainer } from "clutch-widget-nextjs";
-
-<WidgetContainer
-
-                scriptIn={`<script></script>`}
-
-                divIn={`<div></div>`}
-
-                widthIn={"205px"}
-
-                heightIn={"65px"}
-
-                zIndex={"1"}
-
-                leftIn="auto"
-
-                bottomIn="auto"
-
-                topIn="10px"
-
-                rightIn="auto"
-
-                position={"absolute"}
-
-                background={"rgba(255,255,255,0.7)"}
-/>
-```
-
 ### Data from Clatch:
 
 scriptIn    "string"
-
 divIn       "string"
 
 ### Size:
 
 widthIn     "string"
-
 heightIn    "string"
 
 ### Position:
 
 position    "static" | "relative" | "absolute" | "sticky" | "fixed"
-
 zIndex      "string"
-
 leftIn      "string"
-
 topIn       "string"
-
 rightIn     "string"
-
 bottomIn    "string"
 
 ### Title:
@@ -75,29 +44,40 @@ background
 
 ## Default values
 
-scriptIn    = "`<script></script>`",
+scriptIn        = "`<script></script>`",
+divIn           = "`<div></div>`",
+widthIn         = "0",
+heightIn        = "0",
+zIndex          = "0",
+leftIn          = "auto",
+topIn           = "auto",
+rightIn         = "auto",
+bottomIn        = "auto",
+title           = "Clatch Widget",
+position        = "fixed",
+background      = "rgba(255,255,255,0.8)"
+sandboxRules    = "allow-scripts allow-same-origin allow-popups"
 
-divIn       = "`<div></div>`",
+### Example:
 
-widthIn     = "0",
+```sh
+import { WidgetContainer } from "clutch-widget-nextjs";
 
-heightIn    = "0",
-
-zIndex      = "0",
-
-leftIn      = "auto",
-
-topIn       = "auto",
-
-rightIn     = "auto",
-
-bottomIn    = "auto",
-
-title       = "Clatch Widget",
-
-position    = "fixed",
-
-background  = "rgba(255,255,255,0.8)"
+<WidgetContainer
+    scriptIn={`<script></script>`}
+    divIn={`<div></div>`}
+    widthIn={"205px"}
+    heightIn={"65px"}
+    zIndex={"1"}
+    leftIn={"auto"}
+    bottomIn={"auto"}
+    topIn={"10px"}
+    rightIn={"auto"}
+    position={"absolute"}
+    background={"rgba(255,255,255,0.7)"}
+    sandboxRules={"allow-scripts allow-same-origin allow-popups"}
+/>
+```
 
 ## License
 
