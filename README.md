@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-[![License](https://raw.githubusercontent.com/ElderNE/c-widget-container/99a011b495a8f5b7709ee61bada5a9e0a217a3c2/images/licence.svg)]()
+[![License](https://github.com/ElderNE/c-widget-container/blob/main/images/licence.svg)]()
 </div>
 
 <hr>
